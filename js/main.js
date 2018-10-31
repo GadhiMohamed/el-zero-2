@@ -78,18 +78,5 @@ $(function () {
         cursorborder: "1px solid #1abc9c",
         scrollspeed: 50,
     });
-    (function () {
-        var css = document.createElement('link');
-        css.href = 'https://use.fontawesome.com/releases/v5.4.1/css/all.css';
-        css.rel = 'stylesheet';
-        css.type = 'text/css';
-        document.getElementsByTagName('head')[0].appendChild(css);
-    })();
-    (function () {
-        var css = document.createElement('link');
-        css.href = 'https://fonts.googleapis.com/css?family=Lato:400,700';
-        css.rel = 'stylesheet';
-        document.getElementsByTagName('head')[0].appendChild(css);
-    })();
 
 });
